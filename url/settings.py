@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'url.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-database_url = os.environ.get('DATABASE-URL')
+database_url = os.environ.get('DATABASE_URL')
 
 if database_url is None:
     DATABASES = {
@@ -93,7 +93,7 @@ else:
         'default': {
             'ENGINE': 'django.db.backends.postgresql.psycopg2',
             'HOST': 'ec2-3-229-161-70.compute-1.amazonaws.com',
-            'PORT': 5432,
+            'PORT': '5432',
             'USER': 'rjykzpbpgwlmhb',
             'PASSWORD': 'c7db3f0bbd172b7c5a37626aa1f4293b3ffa7c43c64139662e14573836c7d9ea',
             'NAME': 'd9alpv7ac7urp5',
