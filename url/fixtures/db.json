@@ -1,0 +1,978 @@
+[
+{
+    "model": "encurtador.urlredirect",
+    "pk": 1,
+    "fields": {
+        "destino": "http://google.com.br",
+        "slug": "google",
+        "criado_em": "2022-05-04T18:44:37.534",
+        "atualizado_em": "2022-05-04T18:44:37.534"
+    }
+},
+{
+    "model": "encurtador.urlredirect",
+    "pk": 2,
+    "fields": {
+        "destino": "https://inovegrafica.com.br",
+        "slug": "inove",
+        "criado_em": "2022-05-04T16:05:59.810",
+        "atualizado_em": "2022-05-04T16:05:59.810"
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 1,
+    "fields": {
+        "criado_em": "2022-05-01T14:18:42.290",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 1
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 2,
+    "fields": {
+        "criado_em": "2022-05-01T14:22:45.783",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 2
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 3,
+    "fields": {
+        "criado_em": "2022-05-02T14:31:02.152",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 2
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 4,
+    "fields": {
+        "criado_em": "2022-05-02T14:31:08.034",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 2
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 5,
+    "fields": {
+        "criado_em": "2022-05-01T14:31:14.498",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 1
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 6,
+    "fields": {
+        "criado_em": "2022-05-02T14:31:19.619",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 2
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 7,
+    "fields": {
+        "criado_em": "2022-05-03T14:31:23.004",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 2
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 8,
+    "fields": {
+        "criado_em": "2022-05-03T14:31:31.641",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 2
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 9,
+    "fields": {
+        "criado_em": "2022-05-04T14:31:34.607",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 2
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 10,
+    "fields": {
+        "criado_em": "2022-05-04T14:31:38.851",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 2
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 11,
+    "fields": {
+        "criado_em": "2022-05-02T14:31:48.440",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 1
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 12,
+    "fields": {
+        "criado_em": "2022-05-02T14:32:05.395",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 1
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 13,
+    "fields": {
+        "criado_em": "2022-05-02T14:32:08.405",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 1
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 14,
+    "fields": {
+        "criado_em": "2022-05-03T14:32:10.766",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 1
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 15,
+    "fields": {
+        "criado_em": "2022-05-03T14:32:12.750",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 1
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 16,
+    "fields": {
+        "criado_em": "2022-05-04T14:32:15.186",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 1
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 17,
+    "fields": {
+        "criado_em": "2022-05-04T14:32:17.759",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 1
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 18,
+    "fields": {
+        "criado_em": "2022-05-04T14:32:20.084",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 1
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 19,
+    "fields": {
+        "criado_em": "2022-05-05T14:32:23.030",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 1
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 20,
+    "fields": {
+        "criado_em": "2022-05-05T14:32:26.405",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 1
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 21,
+    "fields": {
+        "criado_em": "2022-05-05T14:32:28.521",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 1
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 22,
+    "fields": {
+        "criado_em": "2022-05-05T14:46:04.485",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 2
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 23,
+    "fields": {
+        "criado_em": "2022-05-05T14:51:30.604",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 2
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 24,
+    "fields": {
+        "criado_em": "2022-05-05T15:01:48.319",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 1
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 25,
+    "fields": {
+        "criado_em": "2022-04-26T09:32:06.533",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 1
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 26,
+    "fields": {
+        "criado_em": "2022-04-27T09:32:12.653",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 1
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 27,
+    "fields": {
+        "criado_em": "2022-04-28T09:32:15.689",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 1
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 28,
+    "fields": {
+        "criado_em": "2022-04-29T09:32:18.591",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 1
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 29,
+    "fields": {
+        "criado_em": "2022-04-30T09:32:21.595",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 1
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 30,
+    "fields": {
+        "criado_em": "2022-05-06T09:32:24.106",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 1
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 31,
+    "fields": {
+        "criado_em": "2022-05-06T09:32:26.587",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 1
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 32,
+    "fields": {
+        "criado_em": "2022-04-29T09:32:33.642",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 2
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 33,
+    "fields": {
+        "criado_em": "2022-04-29T09:32:42.730",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 2
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 34,
+    "fields": {
+        "criado_em": "2022-04-29T09:32:45.274",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 2
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 35,
+    "fields": {
+        "criado_em": "2022-04-27T09:32:48.334",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 2
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 36,
+    "fields": {
+        "criado_em": "2022-04-28T09:32:51.429",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 2
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 37,
+    "fields": {
+        "criado_em": "2022-04-27T09:32:53.607",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 2
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 38,
+    "fields": {
+        "criado_em": "2022-04-30T09:32:55.970",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 2
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 39,
+    "fields": {
+        "criado_em": "2022-04-28T09:32:58.647",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 2
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 40,
+    "fields": {
+        "criado_em": "2022-04-29T09:33:00.965",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 2
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 41,
+    "fields": {
+        "criado_em": "2022-04-28T09:33:02.896",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 2
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 42,
+    "fields": {
+        "criado_em": "2022-04-29T09:33:06.568",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 2
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 43,
+    "fields": {
+        "criado_em": "2022-04-30T09:33:09.203",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 2
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 44,
+    "fields": {
+        "criado_em": "2022-05-06T09:33:11.507",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 2
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 45,
+    "fields": {
+        "criado_em": "2022-05-06T09:33:14.312",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 2
+    }
+},
+{
+    "model": "encurtador.urllog",
+    "pk": 46,
+    "fields": {
+        "criado_em": "2022-05-06T09:33:16.744",
+        "origem": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+        "host": "127.0.0.1:8000",
+        "ip": "127.0.0.1",
+        "url_redirect": 2
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2022-05-04T18:44:37.557",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "UrlRedirect object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2022-05-04T16:05:59.834",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "inove",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add url redirect",
+        "content_type": 7,
+        "codename": "add_urlredirect"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change url redirect",
+        "content_type": 7,
+        "codename": "change_urlredirect"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete url redirect",
+        "content_type": 7,
+        "codename": "delete_urlredirect"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view url redirect",
+        "content_type": 7,
+        "codename": "view_urlredirect"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add url log",
+        "content_type": 8,
+        "codename": "add_urllog"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change url log",
+        "content_type": 8,
+        "codename": "change_urllog"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete url log",
+        "content_type": 8,
+        "codename": "delete_urllog"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view url log",
+        "content_type": 8,
+        "codename": "view_urllog"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$xwlan1lH79vwS6JeGY54q9$Uwx53X2KhNJShcjiVUk66ZjWM4SRXzoNzkOns+fG7Q8=",
+        "last_login": "2022-05-04T18:33:45.290",
+        "is_superuser": true,
+        "username": "hgf777",
+        "first_name": "",
+        "last_name": "",
+        "email": "hgf777@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-05-04T18:31:29.425",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "encurtador",
+        "model": "urlredirect"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "encurtador",
+        "model": "urllog"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "g83a3h4uox5uih1ha0hk3m65aak4ehzf",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAURP-FtSE8C7h0328glwtI1UBS2pXx36VJF5rZzTkzb-Jh34rfe1r9EsmVcHL57QLgM9UDxAfUe6PY6rYugR4KPWmnc4vpdTvdv4MCvYy1TXGKNmuNmI2S6ITgOY1kFhjEhGAkD0pzNSgwC8rxiRspQg5OWCCfLwrGOF8:1nmJon:FsaaFDyNhlrJDacoRPHJ4XVePdF51Q8m8ji8A-BVomk",
+        "expire_date": "2022-05-18T18:33:45.294"
+    }
+}
+]
