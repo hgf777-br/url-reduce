@@ -7,6 +7,7 @@ name = "pypi"
 django = "*"
 gunicorn = "*"
 django-debug-toolbar = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
 autopep8 = "*"
