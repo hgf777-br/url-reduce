@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-ia6rrv$ez_0n*e*&k2rwx#_%uh38)q5(3c!4+99oa)p7am9gt0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'hgf-url-reducer.herokuapp.com']
 
 INTERNAL_IPS = ["127.0.0.1"]
 
