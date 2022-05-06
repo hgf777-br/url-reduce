@@ -8,6 +8,7 @@ django = "*"
 gunicorn = "*"
 django-debug-toolbar = "*"
 psycopg2-binary = "*"
+whitenoise = "*"
 
 [dev-packages]
 autopep8 = "*"
